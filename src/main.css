@@ -10,7 +10,6 @@ a:hover {
 }
 .nav-text:hover {
     cursor: pointer;
-    text-decoration: dashed;
 }
 
 .navbar {
