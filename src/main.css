@@ -1,0 +1,18 @@
+a {
+    text-decoration-line: none ;
+}
+a:hover {
+    background-color: rgb(139, 75, 2);
+}
+
+.nav-text {
+    color: rgb(15, 15, 54);
+}
+.nav-text:hover {
+    cursor: pointer;
+    text-decoration: dashed;
+}
+
+.navbar {
+    background-color: rgb(179, 95, 0);
+}
