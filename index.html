@@ -1,57 +1,61 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="src/main.css" />
     <title>Marcelino Saad</title>
-  </head>
-  <body>
-    <div class="d-flex flex-column w-100">
-      <div class="navbar w-100 d-flex justify-content-sm-around p-2 vh-10">
-        <div class="w-20">
-          <h1 class="nav-text">Marcelino Saad</h1>
-        </div>
-        <div class="d-flex justify-content-center gap-5 h-100">
-          <a class="nav-text p-1 d-block h-100" href="index.html">Home</a>
-          <a class="nav-text p-1 d-block h-100" href="about.html">About</a>
-          <a class="nav-text p-1 d-block h-100" href="contact.html">Contact</a>
-          <a class="nav-text p-1 d-block h-100" href="portfolio.html"
-            >Portfolio</a
-          >
-        </div>
-        <div>
-          <button class="btn btn-primary">Dark</button>
-        </div>
-      </div>
-      <div class="w-100 d-flex flex-row align-items-center gap-5 p-5 bg-dark">
-        <div class="w-20 col d-flex justify-content-center">
-          <img
-            src="https://avatars.githubusercontent.com/u/34696930?v=4"
-            alt=""
-            style="width: 60%;"
-          />
-        </div>
-        <div class="w-60 col d-flex flex-column">
-          <h2 class="hd-text">Introduction</h2>
-          <p  class="hd-text">
-            Hi, I'm Marcelino Saad, a software developer from Brazil. I'm
-            currently studying Computer Science at the Federal University of
-            Ceará. I'm passionate about technology and I'm always looking for
-            new challenges and opportunities to learn and grow. I have
-            experience with web development, mobile development, and game
-            development. I'm always looking for new projects to work on and new
-            people to collaborate with. Feel free to contact me if you have any
-            questions or if you want to work with me.
-          </p>
-        </div>
-      </div>
-    </div>
+</head>
 
+<body>
+    <div class="navbar sticky-top border-bottom border-body navbar-expand-md p-3">
+        <div class="navbar-brand d-none col-md-6">
+            <h1>Marcelino Saad</h1>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse col-md-12 justify-content-center" id="navbarSupportedContent">
+            <div class="navbar-nav mb-md-0">
+                <a class="nav-link active" aria-current="page" href="#header">Home</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#">Portfolio</a>
+                <button class="btn btn-primary">Dark</button>
+            </div>
+        </div>
+    </div>
+    <div class="header d-flex flex-wrap align-items-center p-5 justify-content-sm-around" id="header">
+        <div class="col-md-6 col-12 d-flex flex-column">
+            <h2 class="hd-text">Introduction</h2>
+            <p class="hd-text">
+                Hi, I'm Marcelino Saad, a software developer from Brazil. I'm
+                currently studying Computer Science at the Federal University of
+                Ceará. I'm passionate about technology and I'm always looking for
+                new challenges and opportunities to learn and grow. I have
+                experience with web development, mobile development, and game
+                development. I'm always looking for new projects to work on and new
+                people to collaborate with. Feel free to contact me if you have any
+                questions or if you want to work with me.
+            </p>
+        </div>
+        <div class="col-md-5 col-12 d-flex justify-content-center overflow-hidden bg-light rounded-circle">
+            <img src="src/img/me.png" alt="" style="width: 80%" />
+        </div>
+    </div>
+    <div class="about" id="about">
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quia vel voluptate illum cumque, voluptatem saepe quae culpa nisi similique eveniet accusamus facilis suscipit quisquam accusantium voluptas vero. Explicabo, beatae.</span><span>Error praesentium sit nesciunt accusantium blanditiis doloribus voluptates mollitia a? Nulla, maiores mollitia vel ex nihil sapiente excepturi odit et praesentium aperiam ab, blanditiis, est magni voluptate dicta voluptatem animi.</span><span>Aperiam temporibus ea magni architecto placeat porro enim quod consectetur quo ab culpa quis consequatur animi, soluta, sint alias. Quam dolore inventore ad. Minima, earum sunt harum libero obcaecati expedita.</span><span>Laborum sunt quidem voluptates recusandae eveniet sequi tenetur? Veritatis libero distinctio eligendi ab eaque error consectetur cupiditate excepturi cum, ducimus fugit molestiae a hic sunt, harum ipsa porro praesentium. Dolorem.</span><span>Ipsum, aut hic sit optio recusandae ducimus ab, laborum ea repellendus corporis, reiciendis neque. Assumenda animi at inventore facilis. Doloremque omnis, velit consequatur earum ipsum culpa autem sequi inventore deserunt?</span></p>
+        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dolore quidem nihil qui, explicabo impedit unde enim architecto quo mollitia consequuntur atque quis, voluptatem, necessitatibus officiis iure distinctio sequi placeat.</span><span>Dolore, suscipit minima ratione odit quia perspiciatis autem? Nihil officiis sunt commodi repellendus suscipit neque a fugiat sit omnis est molestiae animi exercitationem, iste praesentium amet sapiente quia aut laborum.</span><span>Illo ad facere dolores, quia ut aliquid blanditiis amet quibusdam. Explicabo tempore amet veritatis dolor quasi rem illum maiores architecto corrupti facilis, totam enim tempora quisquam culpa mollitia labore magni.</span><span>Error quisquam velit sapiente perferendis id omnis nulla at, consequuntur ipsam rerum dolorem quas, labore obcaecati rem fugit aut natus facilis laboriosam magni numquam tenetur dolor excepturi. Officia, voluptate magnam.</span><span>Atque veritatis magni maxime velit quam! Laudantium, perspiciatis voluptates earum hic dolorum impedit tenetur nihil natus. Odio totam soluta ducimus exercitationem laborum vero nihil, alias blanditiis, rem fugiat doloremque ea?</span></p>
+        <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam reprehenderit nemo quis quasi quidem omnis, consectetur, amet dolore expedita sapiente magnam facilis, praesentium rem minus placeat error quos maxime ea.</span><span>Eum impedit suscipit vitae sint totam, ex hic aspernatur eveniet incidunt et minima modi saepe illo ea eligendi soluta iusto error labore nobis ullam deserunt iste placeat? Veritatis, inventore nisi?</span><span>Voluptate, maiores cupiditate reprehenderit ipsam laudantium odio quas nihil officia eius nulla magnam expedita optio beatae eligendi vel inventore quisquam eveniet. Rem aliquam iusto consectetur vitae numquam, fugit quos porro?</span><span>Cum ducimus fugit et necessitatibus eius nemo, nam enim inventore ratione quis magnam doloremque blanditiis. Eligendi nemo minus laboriosam labore, modi molestias, suscipit qui necessitatibus nesciunt expedita commodi illum culpa.</span><span>Veniam dignissimos, officia culpa dolores possimus illum reiciendis in cum. Sit suscipit doloremque officiis repellendus architecto earum omnis at quod aliquid, voluptates sequi nemo enim ut minima eos quis. Harum!</span></p>
+        <p><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore quaerat inventore voluptas corrupti recusandae facere officiis odio nesciunt, laboriosam quibusdam. Eveniet consequuntur harum quia vel deleniti facere eius corporis expedita!</span><span>Commodi voluptatibus quidem voluptates ex, provident temporibus doloribus atque porro amet molestiae qui reprehenderit. Voluptates dolorum deleniti vel voluptatibus ipsa iste nulla ea nam tempora enim laborum, veniam quasi blanditiis.</span><span>Doloremque voluptatum assumenda at ipsa odio illo amet, numquam nisi quam? Consequuntur quam, et fugiat eveniet quo impedit illum suscipit fuga minus odit voluptatem est dicta quasi vel rem culpa?</span><span>Ratione, maxime eos impedit ut assumenda a ad aliquid molestiae ea sed rerum fugiat? Debitis sapiente sunt fuga qui quae minus. Amet id illum labore, provident modi quasi similique voluptatem?</span><span>Fuga repellat minima accusantium voluptate in quisquam laudantium deserunt temporibus obcaecati itaque impedit, enim expedita architecto similique explicabo dolorem eaque, ipsam nostrum voluptates possimus mollitia perspiciatis! Animi et dolorem incidunt?</span></p>
+        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore reprehenderit soluta minima magni quaerat quidem. Numquam, consequuntur molestias sed minus aliquam, fugit ab ullam, eum explicabo aperiam ipsa libero assumenda.</span><span>Ipsa a iusto veritatis dolores? Unde nobis, non cumque deserunt obcaecati, sequi voluptatem magnam facere repellendus distinctio totam ipsa reiciendis, omnis ipsum error consequuntur provident! Eius corrupti repellendus dolores alias.</span><span>At accusantium molestiae iste velit inventore est nisi commodi quidem nam natus, quo ratione consequuntur deserunt architecto sapiente harum corporis itaque! Saepe culpa iste illo eveniet magnam facilis vero asperiores.</span><span>Mollitia quaerat iusto sint iste nostrum numquam nisi natus, voluptates corporis alias doloremque magnam ipsum ipsam quia praesentium, expedita in fugit sunt minus, autem velit? Maxime cumque fugiat harum praesentium.</span><span>Distinctio vel, quidem dolores accusamus nostrum repellat nam exercitationem minus dolor deleniti. Cupiditate culpa minus dicta provident nulla accusantium repellat, amet exercitationem veniam dolores, nesciunt laborum sint. Quis, accusamus odit?</span></p>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="index.js"></script>
-  </body>
+</body>
+
 </html>
