@@ -1,70 +1,267 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
+:root {
+    --primary-color: 0, 150, 177;
+    --secondary-color: 0, 69, 82;
+    --background-color: 241, 241, 241;
+    --shadow-color: 18, 23, 35;
+    /* Dark Mode:
+    --secondary-color: 108, 157, 174;
+    --background-color: 18, 23, 35;
+    --shadow-color: 241, 241, 241;
+    */
+}
+
 body {
     font-family: "Josefin Sans", serif;
-    background-color: rgb(241, 241, 241);
-    color: rgb(241, 241, 241);
+    background-color: rgb(var(--background-color));
+    color: rgb(var(--background-color));
 }
 
 /* Media Queries */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
     /* Navbar */
     .navbar {
-        background-color: rgba(241, 241, 241, 0.8) !important;
+        background-color: rgba(var(--background-color), 0.8) !important;
     }    
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 769px) {
     /* Navbar */  
-    .nav-text a, .nav-text svg{
-        color: rgb(240, 240, 240)!important;
-        fill: rgb(240, 240, 240)!important;
+    .nav-text a, .nav-text #dk-btn{
+        color: rgb(var(--background-color))!important;
+        fill: rgb(var(--background-color))!important;
     }
-    .nav-text a:hover, .nav-text svg:hover{
-        color: rgb(138, 138, 138)!important;
-        fill: rgb(138, 138, 138)!important;
+    .nav-text a:hover, .nav-text #dk-btn:hover{
+        color: rgb(var(--shadow-color))!important;
+        fill: rgb(var(--shadow-color))!important;
     }
 }
 
+
+/* Animations */
+/* Skills Icons slide*/
+@keyframes focus-in-contract {
+    0% {
+      letter-spacing: 1em;
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      filter: blur(0px);
+      opacity: 1;
+    }
+}
+@keyframes text-flicker-in-glow {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    10.1% {
+      opacity: 1;
+      text-shadow: none;
+    }
+    10.2% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    20% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    20.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+    }
+    20.6% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    30% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    30.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+    30.5% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+    30.6% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    45% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    45.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+    50% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+    55% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+    55.1% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    57% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    57.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+    }
+    60% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+    }
+    60.1% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    65% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    65.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+    75% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+    75.1% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    77% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    77.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+    85% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+    85.1% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    86% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    86.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+    100% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+}
+@keyframes tilt-in-fwd-tr {
+    0% {
+      transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
+      opacity: 0;
+    }
+    100% {
+      transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+      opacity: 1;
+    }
+  }
+@keyframes slideshow {
+    from {
+      transform: translate(130%);
+    }
+    to {
+      transform: translate(-130%);
+    }
+}
+@keyframes dotter {
+    0% {
+        transform: scale(1);
+    }
+    12.5% {
+        transform: scale(1.5);
+    }
+    25% {
+        transform: scale(1);
+    }
+    /* 50% {
+        transform: scale(1.5);
+    } */
+    100% {
+        transform: scale(1);
+    }
+    
+}
+
+/* Page Components */
 /* Navbar */
 .navbar {
     transition: all 1s;
     position: fixed;
-    border-bottom: 2px dashed rgba(0, 0, 0, 0.1);
+    z-index: 99;
+    border-bottom: 0.2rem dashed rgba(var(--shadow-color), 0.1);
 }
 
 .navbar-brand {
     font-size: 1.5rem;
     font-weight: 500;
     font-style: normal;
-    color: rgb(0, 175, 206);
+    color: rgb(var(--primary-color));
 }
 .navbar-brand:hover {
-    color: rgb(0, 175, 206);
-    cursor: pointer;
+    color: rgb(var(--primary-color));
+    cursor: default;
+}
+.focus-in-contract {
+	animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-svg {
+#dk-btn {
     width: 1.3rem;
     height: 1.3rem;
-    fill: rgb(0, 175, 206);
+    fill: rgb(var(--primary-color));
 }
-svg:hover {
-    fill: rgb(0, 69, 82);
+#dk-btn:hover {
+    fill: rgb(var(--secondary-color));
+    transition: all 0.5s;
 }
+
 .nav-link {
-    color: rgb(0, 150, 177);
+    color: rgb(var(--primary-color));
 }
 .nav-link:hover {
-    color: rgb(0, 69, 82);
+    color: rgb(var(--secondary-color));
+    transition: all 0.5s;
 }
 .navbar-nav .nav-link.active {
-    color: rgb(0, 69, 82);
+    color: rgb(var(--secondary-color));
 }
 
 .navbar-collapse {
     flex-shrink: 1;
 }
+
 
 /* Header */
 .header {
@@ -72,42 +269,51 @@ svg:hover {
     background-size: cover;
     padding-top: calc(3rem + 9vh)!important;
 }
+.header div h1 {
+	animation: text-flicker-in-glow 4s linear both;
+}
 
 .profile-pic {
-    background: rgba(241, 241, 241, 0.5);
+    background: rgba(var(--background-color), 0.5);
     border-radius: 10%;
-    box-shadow: 6px 13px 15px 8px rgba(0, 69, 82, 0.5);
+    box-shadow: 0.6rem 0.6rem 1.5rem 0.6rem rgba(var(--shadow-color), 0.5);
+    animation: tilt-in-fwd-tr 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+.profile-pic img {
+    width: 100%;
+}
+
 
 /* About */
 .about div {
-    background: rgb(0, 69, 82);
-    border: 0.4rem solid rgb(0, 150, 177);
-    border-radius: 10px;
-    box-shadow: 6px 13px 15px 8px rgba(0, 69, 82, 0.5);
+    background: rgb(var(--secondary-color));
+    border: 0.4rem solid rgb(var(--primary-color));
+    border-radius: 0.6rem;
+    box-shadow: 0rem 0rem 1.5rem 0.6rem rgba(var(--shadow-color), 0.5);
 }
 
-/* Resume */
+
+/* Resume and Services*/
 .resume {
-    background-image: linear-gradient(45deg, rgb(0, 150, 177), rgb(0, 69, 82));
+    background-image: linear-gradient(45deg, rgb(var(--primary-color)), rgb(var(--secondary-color)));
     background-size: cover;
 }
 
 .s-title {
-    background: rgb(0, 69, 82);
-    border: 0.4rem solid rgb(241, 241, 241);
-    border-radius: 10px;
+    background: rgb(var(--secondary-color));
+    border: 0.4rem solid rgb(var(--background-color));
+    border-radius: 0.6rem;
 }
 
 .r-rect {
-    background: rgb(0, 69, 82);
-    border: 0.4rem solid rgb(241, 241, 241);
-    border-radius: 10px;
     transition: all 0.5s;
+    background: rgb(var(--secondary-color));
+    border: 0.4rem solid rgb(var(--background-color));
+    border-radius: 0.6rem;
 }
 .r-rect:hover {
     transform: scale(1.05);
-    box-shadow: 6px 13px 15px 8px rgba(0, 69, 82, 0.5);
+    box-shadow: 0rem 0rem 1.5rem 0.6rem rgba(var(--shadow-color), 0.5);
 }
 
 .r-title {
@@ -127,14 +333,118 @@ svg:hover {
 
 .r-bl {
     height: 100%; 
-    border: 2px dashed #F1F1F1;
-    border-radius: 10px;
+    border: 0.15rem dashed rgb(var(--background-color));
+    border-radius: 0.6rem;
 }
 .r-bl-h {
-    height: 2px;
+    height: 0.15rem;
     width: 100%; 
-    border: 2px dashed #F1F1F1;
-    border-radius: 10px;
+    border: 0.15rem dashed rgb(var(--background-color));
+    border-radius: 0.6rem;
+}
+
+.skills {
+    margin-top: 4rem;
+    overflow: hidden;
+    width: calc(100% + 6rem);
+    background-color: rgba(var(--background-color), 0.8);
+}
+.skills img {
+    margin: 1rem 0;
+    width: 7rem;
+    height: 7rem;
+}
+.img-cont {
+    display: flex;
+    animation: slideshow 8s infinite linear;
+}
+
+.sk-hover {
+    opacity: 0;
+    transition: all 0.5s;
+    background-color: rgba(var(--secondary-color), 0.8);
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    height: 9rem;
+}
+.sk-hover:hover {
+    opacity: 1;
+}
+
+
+/* Portfolio */
+.portfolio .s-title {
+    background: rgb(var(--secondary-color));
+    border: 0.4rem solid rgb(var(--primary-color));
+    border-radius: 0.6rem;
+    box-shadow: 0rem 0rem 1.5rem 0.6rem rgba(var(--shadow-color), 0.5);
+}
+
+.p-rect {
+    transition: all 0.5s;
+    background: rgb(var(--secondary-color));
+    border: 0.4rem solid rgb(var(--primary-color));
+    border-radius: 0.6rem;
+}
+.p-rect:hover {
+    transform: scale(1.05);
+    box-shadow: 0rem 0rem 1.5rem 0.6rem rgba(var(--shadow-color), 0.5);
+}
+
+.p-rect .p-img {
+    width: 100%;
+    height: 6rem;
+    background-color: rgb(var(--background-color));
+}
+.p-rect img{
+    width: 100%;
+}
+.p-dot {
+    background: rgb(var(--primary-color));
+    border-radius: 50%;
+    border: rgb(var(--background-color)) 0.2rem solid;
+    width: 2rem;
+    height: 2rem;
+    animation: dotter 2s infinite linear;
+}
+.p-img .p-dot:first-child {
+    animation-delay: 0s;
+}
+.p-img .p-dot:nth-child(2) {
+    animation-delay: 0.5s;
+}
+.p-img .p-dot:nth-child(3) {
+    animation-delay: 1s;
+}
+.p-img .p-dot:nth-child(4) {
+    animation-delay: 1.5s;
+}
+
+.p-hover {
+    opacity: 0;
+    transition: all 0.5s;
+    background-color: rgba(var(--secondary-color), 0.8);
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+}
+.p-hover:hover {
+    opacity: 1;
+}
+
+.p-hover button a svg {
+    fill: rgb(var(--background-color));
+    width: 5rem;
+    height: 5rem;
+}
+
+
+/* Services */
+.services {
+    background-image: linear-gradient(45deg, rgb(var(--secondary-color)), rgb(var(--primary-color)));
+    background-size: cover;
 }
 
 #myBtn {
@@ -149,7 +459,7 @@ svg:hover {
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
+    border-radius: 0.6rem; /* Rounded corners */
     font-size: 18px; /* Increase font size */
   }
   

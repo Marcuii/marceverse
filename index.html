@@ -9,26 +9,27 @@
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="51" tabindex="0">
-    <div id="navbar" class="navbar w-100 navbar-expand-lg p-3">
-        <div class="navbar-brand d-none col-lg-6">
+    <div class="navbar w-100 navbar-expand-md p-3" id="navbar">
+        <div class="navbar-brand d-none col-md-6">
             Marcelino Saad
         </div>
-        <div class="nav-btn d-lg-none d-flex col-12 justify-content-end">
+        <div class="nav-btn d-md-none d-flex col-12 justify-content-end">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
-        <div class="collapse navbar-collapse col-lg-12 justify-content-center" id="navbarSupportedContent">
-            <div class="navbar-nav nav-text mb-lg-0">
+        <div class="collapse navbar-collapse col-md-12 justify-content-center" id="navbarSupportedContent">
+            <div class="navbar-nav nav-text mb-md-0">
                 <a class="nav-link active" aria-current="page" href="#header">Home</a>
                 <a class="nav-link" href="#about">About</a>
                 <a class="nav-link" href="#resume">Resume</a>
                 <a class="nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-link" href="#services">Services</a>
                 <a class="nav-link" href="#contact">Contact</a>
                 <button class="btn">
-                    <svg viewBox="0 0 16 16">
+                    <svg id="dk-btn" viewBox="0 0 16 16">
                         <path
                             d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708" />
                     </svg>
@@ -37,19 +38,18 @@
         </div>
     </div>
 
-
-    <div class="header d-flex align-items-center p-5 justify-content-around" id="header">
-        <div class="col-md-7 col-12 d-flex flex-column align-items-center text-center">
+    <div class="header d-flex justify-content-center align-items-center gap-3 p-5" id="header">
+        <div class="col-md-5 col-12 d-flex flex-column align-items-center text-center gap-md-3">
             <h3>I'm</h3>
             <h1>Marcelino Saad</h1>
             <h2>Junior Front-End Developer</h2>
         </div>
-        <div class="profile-pic col-md-5 d-md-flex d-none justify-content-center overflow-hidden">
-            <img src="src/img/me.png" alt="" style="width: 80%" />
+        <div class="profile-pic col-md-4 d-md-flex d-none justify-content-center overflow-hidden">
+            <img src="src/img/me.png" alt="My Picture"/>
         </div>
     </div>
 
-    <div class="about col-12 d-flex justify-content-center p-5" id="about">
+    <div class="about d-flex justify-content-center p-5" id="about">
         <div class="w-75 p-4 text-center">
             <h2>About Me</h2>
             <p class="mb-0">Dedicated and detail-oriented React Frontend Developer with a strong foundation in web
@@ -60,7 +60,14 @@
         </div>
     </div>
 
-    <div class="resume d-flex flex-wrap justify-content-center gap-5 gap-md-0 p-5" id="resume">
+    <div class="resume d-flex justify-content-center flex-wrap gap-5 gap-md-0 p-5" id="resume">
+        <div class="col-8">
+            <div class="s-title w-auto text-center m-3 mt-0 p-3">
+                <h2 class="m-0">
+                    My Resume
+                </h2>
+            </div>
+        </div>
         <div class="ex-ed col-md-5 d-flex flex-column align-items-center gap-5">
             <div class="s-title w-auto p-2 text-center">
                 <h2 class="m-0">
@@ -172,18 +179,94 @@
                 <h5 class="r-company">Udacity</h5>
                 <h5 class="r-date">Issued - Jan 2021</h5>
                 <p class="r-p">
-                    •	Established Nile University’s first media and design club, leading 70+ members across six committees.
+                    •	Acquired hands-on experience in building responsive and dynamic web applications, leveraging modern front-end and back-end development technologies.
                 </p>
                 <p class="r-p">
-                    •	Directed creative projects and organized events, fostering collaboration and innovation.
+                    •	Developed problem-solving and project management skills through real-world projects and mentorship, preparing me for professional web development challenges.
                 </p>
+            </div>
+        </div>
+        <div class="skills col-12 d-flex flex-row justify-content-center">
+            <div class="img-cont gap-5">
+                <img src="/src/img/icons/html-5-logo-svgrepo-com.svg" alt="">
+                <img src="/src/img/icons/css-3-svgrepo-com.svg" alt="">
+                <img src="/src/img/icons/bootstrap.svg" alt="">
+                <img src="/src/img/icons/js-svgrepo-com.svg" alt="">
+                <img src="/src/img/icons/react-svgrepo-com.svg" alt="">
+                <img src="/src/img/icons/node2-svgrepo-com.svg" alt="">
+                <img src="/src/img/icons/git-svgrepo-com.svg" alt="">
+                <img src="/src/img/icons/github-color-svgrepo-com.svg" alt="">                
+            </div>
+            <div class="sk-hover d-flex justify-content-center align-items-center">
+                <h2>Technical Skills</h2>
             </div>
         </div>
     </div>
 
+    <div class="portfolio d-flex justify-content-center flex-wrap gap-5 p-5" id="portfolio">
+        <div class="col-9">
+            <div class="s-title text-center m-3 mt-0 p-3">
+                <h2 class="m-0">My Portfolio</h2>
+            </div>
+        </div>
+        <div class="p-rect col-lg-3 col-md-5 col-9 d-flex flex-column gap-3">
+            <img src="src/img/portfolio/personal-website.jpg" alt="" />
+            
+            <div class="p-text p-3">
+                <h4>Personal Website</h4>
+                <h5>
+                    <span class="badge text-bg-primary">HTML</span>
+                    <span class="badge text-bg-warning">CSS</span>
+                    <span class="badge text-bg-dark">JS</span>
+                </h5>
+                <p class="mb-0">Portfolio website to show your work.</p>
+            </div>
+            <div class="p-hover d-flex justify-content-center align-items-center">
+                <button class="btn">
+                    <a href="#header">
+                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512">
+                            <path fill="white" d="M64 80c-8.8 0-16 7.2-16 16l0 320c0 8.8 7.2 16 16 16l320 0c8.8 0 16-7.2 16-16l0-320c0-8.8-7.2-16-16-16L64 80zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zM200 344l0-64-64 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l64 0 0-64c0-13.3 10.7-24 24-24s24 10.7 24 24l0 64 64 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-64 0 0 64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"/>
+                        </svg>
+                    </a>
+                </button>
+            </div>
+        </div>
+        <div class="p-rect col-lg-3 col-md-5 col-9 d-flex flex-column gap-3">
+            <div class="p-img d-flex justify-content-center align-items-center">
+                <div class="p-dot"></div>
+                <div class="p-dot"></div>
+                <div class="p-dot"></div>
+                <div class="p-dot"></div>
+            </div>
+            <div class="p-text text-center p-3">
+                <h4>Soon..</h4>     
+            </div>
+        </div>
+        <div class="p-rect col-lg-3 col-md-5 col-9 d-flex flex-column gap-3">
+            <div class="p-img d-flex justify-content-center align-items-center">
+                <div class="p-dot"></div>
+                <div class="p-dot"></div>
+                <div class="p-dot"></div>
+                <div class="p-dot"></div>
+            </div>
+            <div class="p-text text-center p-3">
+                <h4>Soon..</h4>
+            </div>
+        </div>
+    </div>
 
+    <div class="services d-flex justify-content-center flex-wrap gap-5 gap-md-0 p-5" id="services">
+        <div class="col-8">
+            <div class="s-title w-auto text-center m-3 mt-0 p-3">
+                <h2 class="m-0">
+                    My Services
+                </h2>
+            </div>
+        </div>
+    </div>
 
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="index.js"></script>
 </body>
