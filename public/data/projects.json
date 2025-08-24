@@ -1,0 +1,48 @@
+[
+  {
+    "name": "VocaNova",
+    "description": "💼 A modern career enhancement platform built with React, Tailwind CSS, and Material Tailwind. Features smart job recommendations, resume analysis, mock interview simulations, application tracking, and full profile management. Perfect for showcasing advanced frontend development and career-focused solutions.",
+    "image": "/projects/vocanova.png",
+    "tags": ["React", "TailwindCSS", "Context API", "API"],
+    "repo": "https://github.com/Marcuii/vocanova",
+    "demo": "https://vocanova.vercel.app/"
+  },
+  {
+    "name": "MarceVerse",
+    "description": "🌌 A creative and responsive multiverse-themed portfolio built with React and Tailwind CSS. Showcases skills, projects, education, experience, and activities with smooth navigation and modern UI elements. Includes contact form via EmailJS and social links. Perfect for demonstrating full portfolio design and frontend development skills.",
+    "image": "/projects/marceverse.png",
+    "tags": ["React", "TailwindCSS", "EmailJS"],
+    "repo": "https://github.com/Marcuii/marceverse"
+  },
+  {
+    "name": "MEV Template",
+    "description": "🚀 A ready-to-use backend starter template with MongoDB, Express, and Vercel deployment support. Includes essential packages (nodemon, mongoose, dotenv, cors) and a clean folder structure (controllers, models, routes, middleware). Perfect for kickstarting any MERN project backend.",
+    "image": "/projects/mevtemplate.png",
+    "tags": ["NodeJS", "ExpressJS", "MongoDB"],
+    "repo": "https://github.com/Marcuii/mev-template"
+  },
+  {
+    "name": "SupaCart",
+    "description": "🛒 A simple and responsive shopping cart application built with React.js, Vite, and Tailwind CSS. Includes product listing with dynamic rendering, add/remove cart functionality, and real-time total calculation. Perfect for learning core e-commerce concepts and state management with Context API.",
+    "image": "/projects/supacart.png",
+    "tags": ["React", "TailwindCSS", "Context API"],
+    "repo": "https://github.com/Marcuii/supacart",
+    "demo": "https://supacart.vercel.app/"
+  },
+  {
+    "name": "ScholarCompass",
+    "description": "🎓 A modern and responsive web application built with React.js to help students navigate their academic journey. Features dynamic content updates, real-time API integration, and a clean user-friendly interface. Deployed on Vercel for fast, scalable access across all devices. Perfect for showcasing core frontend development skills.",
+    "image": "/projects/scholarcompass.png",
+    "tags": ["React", "TailwindCSS"],
+    "repo": "https://github.com/Marcuii/scholarcompass",
+    "demo": "https://scholarcompass.vercel.app/"
+  },
+  {
+    "name": "Currency Converter",
+    "description": "💱 A simple and responsive Currency Converter Website built with HTML, CSS, and JavaScript. Fetches real-time exchange rates using an external API, supports conversion between multiple currencies, and features error handling with a clean UI. Perfect for showcasing core frontend development skills.",
+    "image": "/projects/currency.png",
+    "tags": ["JS", "Bootstrap", "HTML", "API"],
+    "repo": "https://github.com/Marcuii/currencyconverter",
+    "demo": "https://currencyconverter-exchangeapi.vercel.app/"
+  }
+]

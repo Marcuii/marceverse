@@ -1,0 +1,320 @@
+[
+  {
+    "id": "depireact",
+    "title": "Intern Team Lead – React Frontend Development",
+    "company": "Digital Egypt Pioneers Initiative",
+    "type": "Internship - On site",
+    "tag": "Experience",
+    "period": "October 2024 - May 2025",
+    "shortDescription": "As Team Leader in the React Frontend Development track of the Digital Egypt Pioneers Initiative (DEPI), I led a team of six to develop VocaNova, a React-based web app that won 3rd place nationally in the Mega Project category. This role strengthened my technical, leadership, and project management skills while bridging communication between the team, MCIT, and EYouth.",
+    "details": {
+      "longDescription": [
+        "As Team Leader in the React Frontend Development track of the Digital Egypt Pioneers Initiative (DEPI), I led a team of 6 to build our capstone project “VocaNova”, which proudly won 3rd place in the Mega Project category at the official DEPI closing ceremony.",
+        "My role blended technical development and team leadership, acting as the main point of contact between the team, the Ministry of Communications and Information Technology (MCIT), and EYouth Company. I was responsible for aligning our goals, managing team collaboration, and ensuring quality and timely delivery.",
+        "",
+        "Key Highlights:",
+        "- Led development of VocaNova, a web app built with React, achieving national recognition and praise for quality and innovation.",
+        "- Acted as liaison with MCIT and EYouth, managing communication, deadlines, and documentation throughout the internship.",
+        "- Built responsive and accessible frontend components using React.js, JavaScript, HTML, CSS, and Bootstrap.",
+        "- Explored backend integration using Node.js and Express, gaining introductory experience in full-stack (MERN) development.",
+        "- Applied Git version control and followed agile practices for collaboration and sprint planning.",
+        "- Supported team members with debugging, code reviews, and task distribution while maintaining a collaborative and positive work environment.",
+        "",
+        "This 8-month internship sharpened my technical, communication, and project management skills, while deepening my understanding of real-world development workflows."
+      ],
+      "skills": [
+        "Bootstrap",
+        "Next.js",
+        "Freelancing",
+        "Front-End Development",
+        "React.js",
+        "TailwindCSS",
+        "Express",
+        "MongoDB",
+        "ECM6"
+      ],
+      "images": [
+        "/eeaimages/depireact1.jpg",
+        "/eeaimages/depireact2.jpg",
+        "/eeaimages/depireact3.jpg",
+        "/eeaimages/depireact4.jpg"
+      ]
+    }
+  },
+  {
+    "id": "fivemfreelance",
+    "title": "Game Asset Designer",
+    "company": "Freelance",
+    "type": "Self-Employed",
+    "tag": "Experience",
+    "period": "June 2023 - Present",
+    "shortDescription": "As a freelance game asset designer for FiveM, I create and reskin custom clothing assets (including EUP outfits) and integrate them into servers to enhance gameplay experiences. I collaborate closely with clients, manage projects efficiently, and deliver high-quality, tailored designs with ongoing support.",
+    "details": {
+      "longDescription": [
+        "As a freelance game asset designer and developer, I specialize in creating custom clothing assets, reskinning (retexturing) outfits, and integrating them into FiveM servers. I collaborate directly with clients to deliver personalized, high-quality designs that enhance their game environments and ensure an immersive player experience.",
+        "",
+        "Key responsibilities and skills:",
+        "- Client Collaboration: Partner with server owners to understand their vision and deliver tailor-made assets that align with their specific themes and needs.",
+        "- Custom Design and Development: Design and reskin custom outfits, including EUP (Emergency Uniforms Pack) clothes, ensuring high-quality aesthetics and compatibility.",
+        "- Project Management: Effectively manage multiple projects, ensuring timely delivery, clear communication, and meeting client expectations.",
+        "- Customer Satisfaction: Provide ongoing support and revisions post-delivery, ensuring full satisfaction with the final product.",
+        "- Problem-Solving: Troubleshoot and resolve integration and performance issues related to custom assets within FiveM servers.",
+        "",
+        "This role combines my passion for game design with strong freelancing skills, where I focus on delivering professional, creative, and customized solutions to clients in the gaming community."
+      ],
+      "skills": [
+        "Adobe Photoshop",
+        "Customer Service",
+        "Creative Design",
+        "Adobe Creative Suite",
+        "Customer Satisfaction"
+      ],
+      "images": [
+        "/eeaimages/fivemfreelance1.png",
+        "/eeaimages/fivemfreelance2.png"
+      ]
+    }
+  },
+  {
+    "id": "cisreasearch",
+    "title": "Research Intern - Intelligent Systems & Emergency Evacuation",
+    "company": "Nile University - CIS",
+    "type": "Internship - On site",
+    "tag": "Experience",
+    "period": "July 2025 - Present",
+    "shortDescription": "Selected for a competitive research track on safety-centered intelligent systems, I am working on graph-based routing and lightweight computer vision (YOLO, MobileNet) for emergency evacuation. This internship builds on my graduation project, aiming to produce a publishable paper while applying AI and optimization to real-world safety challenges.",
+    "details": {
+      "longDescription": [
+        "Selected from a competitive pool of applicants to join a research track focused on safety-centered intelligent systems.",
+        "",
+        "Topic: Graph-Based Network Generation and Lightweight Computer Vision Techniques for Emergency Evacuation",
+        "",
+        "▫ Collaborating with peers under the supervision of Dr. Noha Gamal (also my graduation project supervisor)",
+        "▫ Working with graph algorithms (e.g., Dijkstra, A*) for real-time routing in emergency scenarios",
+        "▫ Researching lightweight computer vision models (YOLO, MobileNet) for hazard detection",
+        "▫ Producing a publishable research paper by the end of the program",
+        "▫ Weekly checkpoints include literature review, methodology design, implementation, and final reporting",
+        "",
+        "This internship supports and extends my graduation project and helps me apply real-world optimization and AI techniques to safety-critical domains."
+      ],
+      "skills": [
+        "Literature Reviews",
+        "Research Writing",
+        "Technical Documentation",
+        "Scientific Methodology",
+        "Computer Vision",
+        "Research Ethics",
+        "Team Collaboration"
+      ],
+      "images": [
+        "/eeaimages/cisreasearch.jpg"
+      ]
+    }
+  },
+  {
+    "id": "mcitccna",
+    "title": "CCNA Internship",
+    "company": "Ministry of Communications and Information Technology (MCIT)",
+    "type": "Internship - On site",
+    "tag": "Experience",
+    "period": "July 2024 - August 2024",
+    "shortDescription": "During my internship at the Ministry of Communications and Information Technology (MCIT), I gained hands-on experience with CCNA concepts, configuring and troubleshooting network devices, and solving real-world networking challenges. This strengthened my technical foundation and prepared me for advanced roles in IT and network management.",
+    "details": {
+      "longDescription": [
+        "During my internship at the Ministry of Communications and Information Technology (MCIT), I focused on Cisco Certified Network Associate (CCNA) content, gaining in-depth knowledge of networking concepts and practical skills essential for building and managing computer networks.",
+        "",
+        "Key responsibilities and achievements:",
+        "- Participated in hands-on training sessions covering core CCNA topics such as network fundamentals, IP connectivity, and network security.",
+        "- Gained practical experience in configuring, troubleshooting, and maintaining network devices like routers and switches.",
+        "- Collaborated with a cohort of interns to solve real-world networking scenarios and challenges.",
+        "- Enhanced my understanding of modern networking protocols, VLANs, subnetting, and access control.",
+        "- Received mentorship from industry professionals, deepening my expertise in networking principles and best practices.",
+        "",
+        "This internship significantly strengthened my technical foundation in networking and prepared me for advanced roles in IT and network management."
+      ],
+      "skills": [
+        "Infrastructure Technologies",
+        "Voice over IP (VoIP)",
+        "Problem Solving",
+        "Network Configuration",
+        "Internet Protocol Suite (TCP/IP)"
+      ],
+      "images": [
+        "/eeaimages/mcitccna.jpg"
+      ]
+    }
+  },
+
+
+
+  {
+    "id": "nuengineering",
+    "title": "BSc in Computer Engineering",
+    "company": "Nile University",
+    "tag": "Education",
+    "period": "October 2021 - Present",
+    "shortDescription": "During my journey at Nile University, I combined academics with leadership and creativity, founding Pixels NU, contributing to IEEE NU, and freelancing as a game asset designer. I also gained technical experience through internships at MCIT and the DEPI React track, where my team’s project earned national recognition, shaping me into a multidisciplinary engineer ready to tackle real-world challenges.",
+    "details": {
+      "longDescription": [
+        "I am a senior Computer Engineering student at Nile University with a multidisciplinary background spanning software development, networking, media, and design. My academic journey has been shaped by hands-on projects, national-level internships, and leadership roles, where I’ve consistently bridged theory with real-world applications.",
+        "",
+        "Key highlights:",
+        "Proficient in programming, frontend web development (React, MERN basics), networking, and system design.",
+        "Gained practical experience through internships at the Ministry of Communications and Information Technology (MCIT) and the Digital Egypt Pioneers Initiative (DEPI), where my capstone project VocaNova earned 3rd place nationally.",
+        "Founded Pixels NU, Nile University’s first media and design club, and contributed to the IEEE NU Student Branch as a Media Committee Member.",
+        "Freelanced as a FiveM game asset designer, delivering custom creative solutions to global clients.",
+        "",
+        "This diverse journey has equipped me with strong problem-solving, leadership, and technical skills, preparing me to adapt to emerging technologies and contribute to impactful projects across multiple fields."
+      ],
+      "skills": [
+        "Team Management",
+        "Research Skills",
+        "Java",
+        "C++",
+        "x86 Assembly",
+        "MATLAB",
+        "AutoCAD",
+        "Microsoft Office"
+      ],
+      "images": [
+        "/eeaimages/nu1.jpg",
+        "/eeaimages/nu2.jpg"
+      ]
+    }
+  },
+  {
+    "id": "itidagigs",
+    "title": "Freelancing 101 - ITIDA + GIGs Program",
+    "company": "ITIDA",
+    "type": "Internship - Remote",
+    "tag": "Education",
+    "period": "June 2025",
+    "shortDescription": "Participated in the ITIDA + GIGs Program, focusing on freelancing skills and digital entrepreneurship. This experience enhanced my understanding of the gig economy and equipped me with valuable tools for successful freelancing.",
+    "details": {
+      "longDescription": [
+        "The ITIDA + GIGs Program provided a comprehensive overview of freelancing in the digital age, covering essential topics such as personal branding, client acquisition, and project management.",
+        "",
+        "Key takeaways from the program include:",
+        "- Developed a strong personal brand to attract clients and showcase my skills.",
+        "- Learned effective strategies for finding and securing freelance opportunities.",
+        "- Gained insights into managing projects and delivering high-quality work on time.",
+        "- Networked with industry professionals and fellow freelancers to exchange knowledge and experiences.",
+        "",
+        "This program significantly boosted my confidence and prepared me for a successful freelancing career."
+      ],
+      "skills": [
+        "Time Management",
+        "Proposal Writing",
+        "Customer Communication",
+        "Negotiation",
+        "Portfolio Management",
+        "Personal Branding",
+        "Freelancing"
+      ],
+      "images": [
+        "/eeaimages/itidagigs.jpg"
+      ]
+    }
+  },
+  {
+    "id": "ibmai",
+    "title": "Artificial Intelligence Fundamentals",
+    "company": "IBM",
+    "tag": "Education",
+    "period": "February 2025",
+    "shortDescription": "Completed the Artificial Intelligence Fundamentals course by IBM, gaining a solid understanding of AI concepts, technologies, and applications. This course equipped me with the foundational knowledge needed to explore advanced AI topics and projects.",
+    "details": {
+      "longDescription": [
+        "The Artificial Intelligence Fundamentals course by IBM provided a comprehensive introduction to AI, covering key concepts such as machine learning, natural language processing, and computer vision.",
+        "",
+        "Key takeaways from the course include:",
+        "- Gained a solid understanding of AI concepts and terminology.",
+        "- Explored various AI technologies and their applications in real-world scenarios.",
+        "- Developed hands-on experience with AI tools and frameworks.",
+        "- Completed a capstone project demonstrating the practical application of AI techniques.",
+        "",
+        "This course significantly enhanced my knowledge of AI and prepared me for further exploration in this exciting field."
+      ],
+      "skills": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Data Analysis",
+        "Python",
+        "TensorFlow"
+      ],
+      "images": [
+        "/eeaimages/ibmai.jpg"
+      ]
+    }
+  },
+
+
+
+  {
+    "id": "pixelsnu",
+    "title": "Founder & Leader",
+    "company": "Pixels Nile University",
+    "type": "Seasonal - On site",
+    "tag": "Activity",
+    "period": "October 2023 - August 2024",
+    "shortDescription": "As the founder of Pixels NU, Nile University's first media and design club, I built and led a team of 70–100 members across six committees to deliver high-impact creative projects and events. This role strengthened my leadership, project management, and creative strategy skills while fostering a vibrant community for student growth.",
+    "details": {
+      "longDescription": [
+        "As the founder of Pixels NU, I established Nile University's first dedicated media and design club, creating a vibrant community of creative minds. Leading a team of 70-100 members across six specialized committees (HR, PR, Graphic Design, Videography, Operations, and Marketing), I oversaw the club’s strategic direction and operational success.",
+        "",
+        "Key responsibilities and achievements:",
+        "- Built the club from the ground up, defining its vision, mission, and organizational structure.",
+        "- Recruited, trained, and mentored members to foster a collaborative and innovative environment.",
+        "- Spearheaded numerous media and design projects, enhancing the university's events and initiatives with professional-grade content.",
+        "- Coordinated between committees to ensure seamless collaboration and alignment with the club's objectives.",
+        "- Successfully organized workshops, campaigns, and events, contributing to the personal and professional growth of members.",
+        "- Championed creative excellence, positioning Pixels NU as a central hub for media and design at Nile University.",
+        "",
+        "This experience honed my leadership, project management, and creative strategy skills, while providing a platform for students to develop their talents and make a meaningful impact."
+      ],
+      "skills": [
+        "Project Management",
+        "Leadership",
+        "Communication",
+        "Team Building",
+        "Creative Strategy"
+      ],
+      "images": [
+        "/eeaimages/pixelsnu.jpg"
+      ]
+    }
+  },
+  {
+    "id": "ieeegraphic",
+    "title": "Graphic Designer",
+    "company": "IEEE Nile University Student Branch",
+    "type": "Seasonal - On site",
+    "tag": "Activity",
+    "period": "October 2022 - June 2023",
+    "shortDescription": "As a Media Committee Member at IEEE Nile University Student Branch, I created visuals, managed social media, and covered events to promote initiatives and engage audiences. This role enhanced my skills in media production, teamwork, and strategic communication while supporting IEEE’s mission.",
+    "details": {
+      "longDescription": [
+        "As a Media Committee Member in the IEEE Nile University Student Branch, I actively contributed to promoting the branch's events and initiatives through innovative media strategies.",
+        "",
+        "My responsibilities included:",
+        "- Designing creative visuals and engaging multimedia content to support event marketing.",
+        "- Managing social media platforms to enhance audience reach and engagement.",
+        "- Collaborating with cross-functional teams to align media efforts with branch objectives.",
+        "- Covering and documenting events through photography, videography, and live updates.",
+        "- Applying design and communication skills to effectively convey the branch’s mission and achievements.",
+        "" ,
+        "This role allowed me to strengthen my skills in media production, teamwork, and strategic communication, while supporting IEEE's mission to advance technology for humanity."
+      ],
+      "skills": [
+        "Team Work",
+        "Graphic Design Software",
+        "Image Design",
+        "Social Media Graphic Design",
+        "Creative Problem Solving"
+      ],
+      "images": [
+        "/eeaimages/ieeegd.jpg"
+      ]
+    }
+  }
+]
