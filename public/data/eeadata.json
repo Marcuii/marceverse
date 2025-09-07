@@ -1,47 +1,5 @@
 [
   {
-    "id": "depireact",
-    "title": "Intern Team Lead – React Frontend Development",
-    "company": "Digital Egypt Pioneers Initiative",
-    "type": "Internship - On site",
-    "tag": "Experience",
-    "period": "October 2024 - May 2025",
-    "shortDescription": "As Team Leader in the React Frontend Development track of the Digital Egypt Pioneers Initiative (DEPI), I led a team of six to develop VocaNova, a React-based web app that won 3rd place nationally in the Mega Project category. This role strengthened my technical, leadership, and project management skills while bridging communication between the team, MCIT, and EYouth.",
-    "details": {
-      "longDescription": [
-        "As Team Leader in the React Frontend Development track of the Digital Egypt Pioneers Initiative (DEPI), I led a team of 6 to build our capstone project “VocaNova”, which proudly won 3rd place in the Mega Project category at the official DEPI closing ceremony.",
-        "My role blended technical development and team leadership, acting as the main point of contact between the team, the Ministry of Communications and Information Technology (MCIT), and EYouth Company. I was responsible for aligning our goals, managing team collaboration, and ensuring quality and timely delivery.",
-        "",
-        "Key Highlights:",
-        "- Led development of VocaNova, a web app built with React, achieving national recognition and praise for quality and innovation.",
-        "- Acted as liaison with MCIT and EYouth, managing communication, deadlines, and documentation throughout the internship.",
-        "- Built responsive and accessible frontend components using React.js, JavaScript, HTML, CSS, and Bootstrap.",
-        "- Explored backend integration using Node.js and Express, gaining introductory experience in full-stack (MERN) development.",
-        "- Applied Git version control and followed agile practices for collaboration and sprint planning.",
-        "- Supported team members with debugging, code reviews, and task distribution while maintaining a collaborative and positive work environment.",
-        "",
-        "This 8-month internship sharpened my technical, communication, and project management skills, while deepening my understanding of real-world development workflows."
-      ],
-      "skills": [
-        "Bootstrap",
-        "Next.js",
-        "Freelancing",
-        "Front-End Development",
-        "React.js",
-        "TailwindCSS",
-        "Express",
-        "MongoDB",
-        "ECM6"
-      ],
-      "images": [
-        "/eeaimages/depireact1.jpg",
-        "/eeaimages/depireact2.jpg",
-        "/eeaimages/depireact3.jpg",
-        "/eeaimages/depireact4.jpg"
-      ]
-    }
-  },
-  {
     "id": "fivemfreelance",
     "title": "Game Asset Designer",
     "company": "Freelance",
@@ -81,7 +39,7 @@
     "company": "Nile University - CIS",
     "type": "Internship - On site",
     "tag": "Experience",
-    "period": "July 2025 - Present",
+    "period": "July 2025 - August 2025",
     "shortDescription": "Selected for a competitive research track on safety-centered intelligent systems, I am working on graph-based routing and lightweight computer vision (YOLO, MobileNet) for emergency evacuation. This internship builds on my graduation project, aiming to produce a publishable paper while applying AI and optimization to real-world safety challenges.",
     "details": {
       "longDescription": [
@@ -108,6 +66,48 @@
       ],
       "images": [
         "/eeaimages/cisreasearch.jpg"
+      ]
+    }
+  },
+  {
+    "id": "depireact",
+    "title": "Intern Team Lead – React Frontend Development",
+    "company": "Digital Egypt Pioneers Initiative",
+    "type": "Internship - On site",
+    "tag": "Experience",
+    "period": "October 2024 - May 2025",
+    "shortDescription": "As Team Leader in the React Frontend Development track of the Digital Egypt Pioneers Initiative (DEPI), I led a team of six to develop VocaNova, a React-based web app that won 3rd place nationally in the Mega Project category. This role strengthened my technical, leadership, and project management skills while bridging communication between the team, MCIT, and EYouth.",
+    "details": {
+      "longDescription": [
+        "As Team Leader in the React Frontend Development track of the Digital Egypt Pioneers Initiative (DEPI), I led a team of 6 to build our capstone project “VocaNova”, which proudly won 3rd place in the Mega Project category at the official DEPI closing ceremony.",
+        "My role blended technical development and team leadership, acting as the main point of contact between the team, the Ministry of Communications and Information Technology (MCIT), and EYouth Company. I was responsible for aligning our goals, managing team collaboration, and ensuring quality and timely delivery.",
+        "",
+        "Key Highlights:",
+        "- Led development of VocaNova, a web app built with React, achieving national recognition and praise for quality and innovation.",
+        "- Acted as liaison with MCIT and EYouth, managing communication, deadlines, and documentation throughout the internship.",
+        "- Built responsive and accessible frontend components using React.js, JavaScript, HTML, CSS, and Bootstrap.",
+        "- Explored backend integration using Node.js and Express, gaining introductory experience in full-stack (MERN) development.",
+        "- Applied Git version control and followed agile practices for collaboration and sprint planning.",
+        "- Supported team members with debugging, code reviews, and task distribution while maintaining a collaborative and positive work environment.",
+        "",
+        "This 8-month internship sharpened my technical, communication, and project management skills, while deepening my understanding of real-world development workflows."
+      ],
+      "skills": [
+        "Bootstrap",
+        "Next.js",
+        "Freelancing",
+        "Front-End Development",
+        "React.js",
+        "TailwindCSS",
+        "Express",
+        "MongoDB",
+        "ECM6"
+      ],
+      "images": [
+        "/eeaimages/depireact1.jpg",
+        "/eeaimages/depireact2.jpg",
+        "/eeaimages/depireact3.jpg",
+        "/eeaimages/depireact4.jpg"
       ]
     }
   },
@@ -178,17 +178,21 @@
       ],
       "images": [
         "/eeaimages/nu1.jpg",
-        "/eeaimages/nu2.jpg"
+        "/eeaimages/nu2.jpg",
+        "/eeaimages/nu3.png"
       ]
     }
   },
+
+
+
   {
     "id": "itidagigs",
     "title": "Freelancing 101 - ITIDA + GIGs Program",
     "company": "ITIDA",
     "type": "Internship - Remote",
-    "tag": "Education",
-    "period": "June 2025",
+    "tag": "Certification",
+    "period": "Issued: June 2025",
     "shortDescription": "Participated in the ITIDA + GIGs Program, focusing on freelancing skills and digital entrepreneurship. This experience enhanced my understanding of the gig economy and equipped me with valuable tools for successful freelancing.",
     "details": {
       "longDescription": [
@@ -220,8 +224,8 @@
     "id": "ibmai",
     "title": "Artificial Intelligence Fundamentals",
     "company": "IBM",
-    "tag": "Education",
-    "period": "February 2025",
+    "tag": "Certification",
+    "period": "Issued: February 2025",
     "shortDescription": "Completed the Artificial Intelligence Fundamentals course by IBM, gaining a solid understanding of AI concepts, technologies, and applications. This course equipped me with the foundational knowledge needed to explore advanced AI topics and projects.",
     "details": {
       "longDescription": [
@@ -244,6 +248,37 @@
       ],
       "images": [
         "/eeaimages/ibmai.jpg"
+      ]
+    }
+  },
+  {
+    "id": "udacitywebdev",
+    "title": "Professional Web Development",
+    "company": "Udacity",
+    "tag": "Certification",
+    "period": "Issued: January 2021",
+    "shortDescription": "Completed the Professional Web Development course by Udacity, gaining a solid understanding of web development concepts, technologies, and applications. This course equipped me with the foundational knowledge needed to explore advanced web development topics and projects.",
+    "details": {
+      "longDescription": [
+        "The Professional Web Development course by Udacity provided a comprehensive introduction to web development, covering key concepts such as HTML, CSS, JavaScript, and responsive design.",
+        "",
+        "Key takeaways from the course include:",
+        "- Gained a solid understanding of web development concepts and terminology.",
+        "- Explored various web development technologies and their applications in real-world scenarios.",
+        "- Developed hands-on experience with web development tools and frameworks.",
+        "- Completed a capstone project demonstrating the practical application of web development techniques.",
+        "",
+        "This course significantly enhanced my knowledge of web development and prepared me for further exploration in this exciting field."
+      ],
+      "skills": [
+        "jQuery",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Responsive Design"
+      ],
+      "images": [
+        "/eeaimages/udacitywebdev.png"
       ]
     }
   },
@@ -316,5 +351,70 @@
         "/eeaimages/ieeegd.jpg"
       ]
     }
+  },
+
+  {
+  "id": "ugrf20",
+  "title": "20th Undergraduate Research Forum – 1st International Edition",
+  "company": "Nile University",
+  "type": "On-Campus Competition",
+  "tag": "Competition",
+  "period": "August 2025",
+  "shortDescription": "Presented a research project on Network Intrusion Detection using Machine Learning, Deep Learning, and Federated Learning, which was accepted for publication in the UGRF Proceedings.",
+  "details": {
+    "longDescription": [
+      "At the 20th Undergraduate Research Forum (UGRF) – 1st International Edition, I had the opportunity to present our research project: *Network Intrusion Detection System Using Machine Learning, Deep Learning, and Federated Learning Techniques.*",
+      "",
+      "Key outcomes and contributions:",
+      "✅ The project was accepted for publication in the UGRF Proceedings, showcasing its academic value.",
+      "✅ Applied AI techniques for enhancing cybersecurity through intrusion detection.",
+      "✅ Gained exposure to academic research, competitive presentation, and peer collaboration.",
+      "",
+      "I had the privilege to work alongside my teammates Mohaned Asker, Youssef Mansy, and Mohamed Alaa, under the supervision of Prof. Sahar Selim, whose guidance was invaluable."
+    ],
+    "skills": [
+      "Cybersecurity",
+      "Machine Learning",
+      "Deep Learning",
+      "Federated Learning",
+      "Research Presentation",
+      "Team Collaboration"
+    ],
+    "images": [
+      "/eeaimages/nu3.png"
+    ]
   }
+},
+{
+  "id": "ugrf19",
+  "title": "19th Undergraduate Research Forum",
+  "company": "Nile University",
+  "type": "On-Campus Competition",
+  "tag": "Competition",
+  "period": "January 2025",
+  "shortDescription": "Participated with two projects: ML-based Network Node Fault Identification and an E-Commerce Database Management System.",
+  "details": {
+    "longDescription": [
+      "During the 19th Undergraduate Research Forum (UGRF), I had the opportunity to participate with two research projects that combined innovation, problem-solving, and applied technology:",
+      "",
+      "📌 *Network Node Fault Identification using Machine Learning* – Leveraged Random Forest algorithms to detect and predict network node failures, aiming to improve resilience and efficiency in computer networks.",
+      "📌 *E-Commerce Database Management System* – Designed and implemented a scalable e-commerce management system using MySQL, Supabase, and Retool to optimize operations like product tracking, customer management, and order processing.",
+      "",
+      "This experience provided invaluable exposure to practical problem-solving, academic research, and teamwork. I am grateful to our mentors Dr. Mohamed Saeed Darweesh, Dr. Abdallah Saad, Eng. Salma Moustafa, and Eng. Shahd Gamal for their guidance."
+    ],
+    "skills": [
+      "Machine Learning",
+      "Random Forest",
+      "Database Management",
+      "MySQL",
+      "Supabase",
+      "Retool",
+      "Research Collaboration"
+    ],
+    "images": [
+      "/eeaimages/nu1.jpg",
+      "/eeaimages/nu2.jpg"
+    ]
+  }
+}
 ]

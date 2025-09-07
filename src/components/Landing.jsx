@@ -170,7 +170,7 @@ const Landing = () => {
       </div>
 
       <div
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce cursor-pointer"
+        className="absolute bottom-10 -translate-x-1/2 animate-bounce cursor-pointer"
         onClick={() => setVisible(false)}
       >
         <span className="block w-8 h-8 border-l-4 border-b-4 border-primary -rotate-45"></span>

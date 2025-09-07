@@ -23,7 +23,7 @@ export default function ExperienceDetail() {
   }
 
   return (
-    <div className="bg-base-100/30 backdrop-blur flex items-center justify-center p-6">
+    <div className="bg-base-100/30 rounded-xl backdrop-blur flex items-center justify-center mx-5 mb-5 p-6">
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
@@ -90,7 +90,7 @@ export default function ExperienceDetail() {
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
-            className="relative max-w-4xl w-full p-4"
+            className="absolute max-w-4xl w-full p-4"
           >
             <img
               src={selectedImage}
@@ -100,7 +100,7 @@ export default function ExperienceDetail() {
             />
             <button
               onClick={() => setSelectedImage(null)}
-              className="absolute top-4 -right-7 p-2 rounded-full bg-error text-error-content shadow-lg hover:bg-error/80 transition"
+              className="absolute -top-7 right-3 p-2 rounded-full bg-error text-error-content shadow-lg hover:bg-error/80 transition"
             >
               <FaX size={22} />
             </button>
