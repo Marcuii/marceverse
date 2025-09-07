@@ -64,9 +64,7 @@
         "Research Ethics",
         "Team Collaboration"
       ],
-      "images": [
-        "/eeaimages/cisreasearch.jpg"
-      ]
+      "images": ["/eeaimages/cisreasearch.jpg"]
     }
   },
   {
@@ -139,13 +137,9 @@
         "Network Configuration",
         "Internet Protocol Suite (TCP/IP)"
       ],
-      "images": [
-        "/eeaimages/mcitccna.jpg"
-      ]
+      "images": ["/eeaimages/mcitccna.jpg"]
     }
   },
-
-
 
   {
     "id": "nuengineering",
@@ -184,8 +178,6 @@
     }
   },
 
-
-
   {
     "id": "itidagigs",
     "title": "Freelancing 101 - ITIDA + GIGs Program",
@@ -215,9 +207,7 @@
         "Personal Branding",
         "Freelancing"
       ],
-      "images": [
-        "/eeaimages/itidagigs.jpg"
-      ]
+      "images": ["/eeaimages/itidagigs.jpg"]
     }
   },
   {
@@ -246,9 +236,7 @@
         "Python",
         "TensorFlow"
       ],
-      "images": [
-        "/eeaimages/ibmai.jpg"
-      ]
+      "images": ["/eeaimages/ibmai.jpg"]
     }
   },
   {
@@ -270,20 +258,10 @@
         "",
         "This course significantly enhanced my knowledge of web development and prepared me for further exploration in this exciting field."
       ],
-      "skills": [
-        "jQuery",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Responsive Design"
-      ],
-      "images": [
-        "/eeaimages/udacitywebdev.png"
-      ]
+      "skills": ["jQuery", "HTML", "CSS", "JavaScript", "Responsive Design"],
+      "images": ["/eeaimages/udacitywebdev.png"]
     }
   },
-
-
 
   {
     "id": "pixelsnu",
@@ -314,9 +292,7 @@
         "Team Building",
         "Creative Strategy"
       ],
-      "images": [
-        "/eeaimages/pixelsnu.jpg"
-      ]
+      "images": ["/eeaimages/pixelsnu.jpg"]
     }
   },
   {
@@ -337,7 +313,7 @@
         "- Collaborating with cross-functional teams to align media efforts with branch objectives.",
         "- Covering and documenting events through photography, videography, and live updates.",
         "- Applying design and communication skills to effectively convey the branch’s mission and achievements.",
-        "" ,
+        "",
         "This role allowed me to strengthen my skills in media production, teamwork, and strategic communication, while supporting IEEE's mission to advance technology for humanity."
       ],
       "skills": [
@@ -347,74 +323,67 @@
         "Social Media Graphic Design",
         "Creative Problem Solving"
       ],
-      "images": [
-        "/eeaimages/ieeegd.jpg"
-      ]
+      "images": ["/eeaimages/ieeegd.jpg"]
     }
   },
 
   {
-  "id": "ugrf20",
-  "title": "20th Undergraduate Research Forum – 1st International Edition",
-  "company": "Nile University",
-  "type": "On-Campus Competition",
-  "tag": "Competition",
-  "period": "August 2025",
-  "shortDescription": "Presented a research project on Network Intrusion Detection using Machine Learning, Deep Learning, and Federated Learning, which was accepted for publication in the UGRF Proceedings.",
-  "details": {
-    "longDescription": [
-      "At the 20th Undergraduate Research Forum (UGRF) – 1st International Edition, I had the opportunity to present our research project: *Network Intrusion Detection System Using Machine Learning, Deep Learning, and Federated Learning Techniques.*",
-      "",
-      "Key outcomes and contributions:",
-      "✅ The project was accepted for publication in the UGRF Proceedings, showcasing its academic value.",
-      "✅ Applied AI techniques for enhancing cybersecurity through intrusion detection.",
-      "✅ Gained exposure to academic research, competitive presentation, and peer collaboration.",
-      "",
-      "I had the privilege to work alongside my teammates Mohaned Asker, Youssef Mansy, and Mohamed Alaa, under the supervision of Prof. Sahar Selim, whose guidance was invaluable."
-    ],
-    "skills": [
-      "Cybersecurity",
-      "Machine Learning",
-      "Deep Learning",
-      "Federated Learning",
-      "Research Presentation",
-      "Team Collaboration"
-    ],
-    "images": [
-      "/eeaimages/nu3.png"
-    ]
+    "id": "ugrf20",
+    "title": "20th Undergraduate Research Forum – 1st International Edition",
+    "company": "Nile University",
+    "type": "On-Campus Competition",
+    "tag": "Competition",
+    "period": "August 2025",
+    "shortDescription": "Presented a research project on Network Intrusion Detection using Machine Learning, Deep Learning, and Federated Learning, which was accepted for publication in the UGRF Proceedings.",
+    "details": {
+      "longDescription": [
+        "At the 20th Undergraduate Research Forum (UGRF) – 1st International Edition, I had the opportunity to present our research project: Network Intrusion Detection System Using Machine Learning, Deep Learning, and Federated Learning Techniques.",
+        "",
+        "Key outcomes and contributions:",
+        "✅ The project was accepted for publication in the UGRF Proceedings, showcasing its academic value.",
+        "✅ Applied AI techniques for enhancing cybersecurity through intrusion detection.",
+        "✅ Gained exposure to academic research, competitive presentation, and peer collaboration.",
+        "",
+        "I had the privilege to work alongside my teammates Mohaned Asker, Youssef Mansy, and Mohamed Alaa, under the supervision of Prof. Sahar Selim, whose guidance was invaluable."
+      ],
+      "skills": [
+        "Cybersecurity",
+        "Machine Learning",
+        "Deep Learning",
+        "Federated Learning",
+        "Research Presentation",
+        "Team Collaboration"
+      ],
+      "images": ["/eeaimages/nu3.png"]
+    }
+  },
+  {
+    "id": "ugrf19",
+    "title": "19th Undergraduate Research Forum",
+    "company": "Nile University",
+    "type": "On-Campus Competition",
+    "tag": "Competition",
+    "period": "January 2025",
+    "shortDescription": "Participated with two projects: ML-based Network Node Fault Identification and an E-Commerce Database Management System.",
+    "details": {
+      "longDescription": [
+        "During the 19th Undergraduate Research Forum (UGRF), I had the opportunity to participate with two research projects that combined innovation, problem-solving, and applied technology:",
+        "",
+        "📌 Network Node Fault Identification using Machine Learning – Leveraged Random Forest algorithms to detect and predict network node failures, aiming to improve resilience and efficiency in computer networks.",
+        "📌 E-Commerce Database Management System – Designed and implemented a scalable e-commerce management system using MySQL, Supabase, and Retool to optimize operations like product tracking, customer management, and order processing.",
+        "",
+        "This experience provided invaluable exposure to practical problem-solving, academic research, and teamwork. I am grateful to our mentors Dr. Mohamed Saeed Darweesh, Dr. Abdallah Saad, Eng. Salma Moustafa, and Eng. Shahd Gamal for their guidance."
+      ],
+      "skills": [
+        "Machine Learning",
+        "Random Forest",
+        "Database Management",
+        "MySQL",
+        "Supabase",
+        "Retool",
+        "Research Collaboration"
+      ],
+      "images": ["/eeaimages/nu1.jpg", "/eeaimages/nu2.jpg"]
+    }
   }
-},
-{
-  "id": "ugrf19",
-  "title": "19th Undergraduate Research Forum",
-  "company": "Nile University",
-  "type": "On-Campus Competition",
-  "tag": "Competition",
-  "period": "January 2025",
-  "shortDescription": "Participated with two projects: ML-based Network Node Fault Identification and an E-Commerce Database Management System.",
-  "details": {
-    "longDescription": [
-      "During the 19th Undergraduate Research Forum (UGRF), I had the opportunity to participate with two research projects that combined innovation, problem-solving, and applied technology:",
-      "",
-      "📌 *Network Node Fault Identification using Machine Learning* – Leveraged Random Forest algorithms to detect and predict network node failures, aiming to improve resilience and efficiency in computer networks.",
-      "📌 *E-Commerce Database Management System* – Designed and implemented a scalable e-commerce management system using MySQL, Supabase, and Retool to optimize operations like product tracking, customer management, and order processing.",
-      "",
-      "This experience provided invaluable exposure to practical problem-solving, academic research, and teamwork. I am grateful to our mentors Dr. Mohamed Saeed Darweesh, Dr. Abdallah Saad, Eng. Salma Moustafa, and Eng. Shahd Gamal for their guidance."
-    ],
-    "skills": [
-      "Machine Learning",
-      "Random Forest",
-      "Database Management",
-      "MySQL",
-      "Supabase",
-      "Retool",
-      "Research Collaboration"
-    ],
-    "images": [
-      "/eeaimages/nu1.jpg",
-      "/eeaimages/nu2.jpg"
-    ]
-  }
-}
 ]
