@@ -328,6 +328,36 @@
   },
 
   {
+    "id": "digitopia1",
+    "title": "Digitopia - 1st Edition",
+    "company": "Ministry of Communications and Information Technology (MCIT)",
+    "type": "Online Competition",
+    "tag": "Competition",
+    "period": "September 2025",
+    "shortDescription": "Participated in the Idea Submission Phase, showcasing a smart scholar portal project integrating AI and MERN stack technologies.",
+    "details": {
+      "longDescription": [
+        "In the Idea Submission Phase of Digitopia - 1st Edition, I presented a project focused on developing a smart scholar portal that leverages AI and MERN stack technologies to enhance the educational experience.",
+        "",
+        "Key aspects of the project:",
+        "✅ Integrated AI features to provide personalized learning paths and resources for students.",
+        "✅ Utilized the MERN stack (MongoDB, Express.js, React.js, Node.js) for a robust and scalable web application.",
+        "✅ Emphasized user-friendly design and accessibility to ensure a seamless experience for all users.",
+        "✅ Collaborated with a team to brainstorm, develop, and refine the project concept.",
+        "",
+        "This experience allowed me to apply my technical skills in a competitive environment while contributing to innovative solutions in education."
+      ],
+      "skills": [
+        "AI Integration",
+        "MERN Stack",
+        "Project Presentation",
+        "Team Collaboration",
+        "Innovation"
+      ],
+      "images": ["/eeaimages/digitopia1.png"]
+    }
+  },
+  {
     "id": "ugrf20",
     "title": "20th Undergraduate Research Forum – 1st International Edition",
     "company": "Nile University",
