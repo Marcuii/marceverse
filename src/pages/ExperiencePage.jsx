@@ -44,7 +44,7 @@ export default function ExperienceDetail() {
           </h1>
           {data.details.longDescription.map((paragraph, index) => (
             <p key={index} className="text-accent mt-1 leading-relaxed">
-              {paragraph}
+              {paragraph === "" ? <br /> : paragraph}
             </p>
           ))}
         </div>
