@@ -126,7 +126,7 @@ const EntityListPage = () => {
                     <td className="font-bold text-lg">{item.title}</td>
                     <td className="text-accent">{item[secondaryKey]}</td>
                     <td>
-                      <span className="badge badge-ghost">{item.period}</span>
+                      <span className="badge badge-ghost h-auto py-1 text-center">{item.period}</span>
                     </td>
                     <td>
                       <div className="flex items-center gap-2">

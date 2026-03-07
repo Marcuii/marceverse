@@ -18,7 +18,7 @@ const Layout = () => {
             <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content flex flex-col bg-base-100 min-h-screen">
                 {/* Mobile Header with Toggle */}
-                <div className="w-full navbar bg-base-300 lg:hidden">
+                <div className="w-full navbar bg-base-300 lg:hidden sticky top-0 z-40">
                     <div className="flex-none">
                         <label htmlFor="my-drawer-2" className="btn btn-square btn-ghost drawer-button">
                             <MdMenu size={24} />

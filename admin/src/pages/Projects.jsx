@@ -127,7 +127,7 @@ const Projects = () => {
                                             </div>
                                         </td>
                                         <td className="font-bold">{project.name}</td>
-                                        <td><span className="badge badge-outline">{project.category || 'Other'}</span></td>
+                                        <td><span className="badge badge-outline h-auto py-1 text-center">{project.category || 'Other'}</span></td>
                                         <td className="max-w-xs truncate" title={project.description}>{project.description}</td>
                                         <td>
                                             <div className="flex flex-wrap gap-1">

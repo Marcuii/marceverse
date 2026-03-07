@@ -22,7 +22,7 @@ const projectSchema = mongoose.Schema(
         /** Technology / framework tags shown as chips. */
         tags: [{ type: String }],
         /** Source-code repository URL. */
-        repo: { type: String, required: true },
+        repo: { type: String },
         /** Live demo URL (optional). */
         demo: { type: String },
         /** Sort order controlled by admin drag-and-drop. */

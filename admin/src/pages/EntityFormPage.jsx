@@ -4,6 +4,7 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import entityConfig from '../config/entityConfig';
 import { entitySchema } from '../config/entitySchema';
+import Toast from '../components/Toast';
 
 /** Inline error message for a single field */
 const FieldError = ({ errors, name }) =>
@@ -40,6 +41,7 @@ const EntityFormPage = () => {
   });
 
   const [existingImages, setExistingImages] = useState([]);
+  const [toast, setToast] = useState(null);
 
   const loadEntity = async () => {
     try {
@@ -108,7 +110,7 @@ const EntityFormPage = () => {
       navigate(`/${cfg.slug}`);
     } catch (error) {
       console.error(`Error saving ${cfg.singular}:`, error);
-      alert(`Failed to save ${cfg.singular.toLowerCase()}`);
+      setToast({ message: `Failed to save ${cfg.singular.toLowerCase()}`, type: 'error' });
     }
   };
 
@@ -281,6 +283,13 @@ const EntityFormPage = () => {
               : `Create ${cfg.singular}`}
         </button>
       </form>
+      {toast && (
+        <Toast
+          message={toast.message}
+          type={toast.type}
+          onClose={() => setToast(null)}
+        />
+      )}
     </div>
   );
 };

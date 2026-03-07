@@ -93,7 +93,7 @@ const ProjectForm = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="form-control w-full">
                         <label className="label"><span className="label-text">Repository URL</span></label>
-                        <input type="url" {...register('repo', { required: true })} className="input input-bordered w-full" />
+                        <input type="url" {...register('repo')} className="input input-bordered w-full" />
                     </div>
                     <div className="form-control w-full">
                         <label className="label"><span className="label-text">Demo URL</span></label>

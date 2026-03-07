@@ -39,8 +39,8 @@ const SkillCategory = ({ nestIndex, control, register, removeCategory }) => {
                 </div>
                 <button type="button" onClick={() => removeCategory(nestIndex)} className="btn btn-error btn-xs z-20 relative">Delete Category</button>
             </div>
-            <div className="collapse-content p-4">
-                <div className="space-y-4">
+            <div className="collapse-content p-4 overflow-x-auto">
+                <div className="space-y-4 min-w-[600px]">
                     {fields.map((item, k) => (
                         <div key={item.id} className="flex gap-2 items-center border-b pb-2">
                             <div className="form-control w-1/3">

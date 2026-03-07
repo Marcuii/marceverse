@@ -20,7 +20,7 @@ const experienceSchema = mongoose.Schema(
         /** Employment type (e.g. "Full-time", "Internship"). */
         type: { type: String },
         /** Entity category label used by the client UI. */
-        tag: { type: String, required: true },
+        tag: { type: String },
         /** Human-readable date range (e.g. "Jan 2023 – Present"). */
         period: { type: String, required: true },
         /** Card-level summary shown in list views. */

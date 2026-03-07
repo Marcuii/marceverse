@@ -24,7 +24,7 @@ const getProjects = asyncHandler(async (req, res) => {
 // @route   POST /api/projects
 // @access  Private (Admin)
 const createProject = asyncHandler(async (req, res) => {
-    const { name, description, tags, repo, demo } = req.body;
+    const { name, description, category, tags, repo, demo } = req.body;
 
     let image = '';
     if (req.file) {
@@ -40,6 +40,7 @@ const createProject = asyncHandler(async (req, res) => {
     const project = await Project.create({
         name,
         description,
+        category,
         image,
         tags: tags
             ? (Array.isArray(tags) ? tags : tags.split(',').map((t) => t.trim()))
@@ -61,7 +62,7 @@ const updateProject = asyncHandler(async (req, res) => {
         throw new AppError('Project not found', 404);
     }
 
-    const { name, description, tags, repo, demo } = req.body;
+    const { name, description, category, tags, repo, demo } = req.body;
 
     let image = project.image;
     if (req.file) {
@@ -76,7 +77,7 @@ const updateProject = asyncHandler(async (req, res) => {
 
     const updatedProject = await Project.findByIdAndUpdate(
         req.params.id,
-        { name, description, image, tags: parsedTags, repo, demo },
+        { name, description, category, image, tags: parsedTags, repo, demo },
         { new: true, runValidators: true }
     );
 
